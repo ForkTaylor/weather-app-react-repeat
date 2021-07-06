@@ -28,7 +28,7 @@ const [wind, setWind] = useState(0)
 // Calling the API 
     useEffect(() => {
         if(coords) {
-            const url = `http://api.openweathermap.org/data/2.5/weather?${coords}&appid=9cca990df9770fd6669bb4aa7f9ce7c5&units=metric`
+            const url = `https://api.openweathermap.org/data/2.5/weather?${coords}&appid=9cca990df9770fd6669bb4aa7f9ce7c5&units=metric`
             // const APIkey = '9cca990df9770fd6669bb4aa7f9ce7c5'
             fetch(url).then(res => res.json()).then(response => {
                 console.log(response);
