@@ -1,0 +1,47 @@
+/* styling the weather box */
+.weather-box {
+    border: solid yellow 3px;
+    border-radius: 6px;
+    height: 50%;
+    width: 50%;
+    padding: 30px;
+    font-family: 'Oxygen Mono', monospace;
+}
+
+.icon {
+    size: 2rem;
+    padding: 10px;
+}
+
+.cloud-text-box {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 14px;
+    padding: 8px;
+}
+
+.clouds-text {
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.country-text {
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.6rem;
+    font-weight: 1500;
+    padding: 10px;
+}
+
+.main-temp {
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.high-lows {
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 5px;
+}
+
